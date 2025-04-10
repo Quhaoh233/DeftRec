@@ -12,16 +12,11 @@ Please download the checkpoints at [Google Drive](https://drive.google.com/drive
 python cd code
 ```
 
-2. **Whole Pipeline**
+2. **Training**
 ```
-python main.py --dataset=lastfm
-```
-
-3. **Train from checkpoint (LLM)**
-```
-python main.py --dataset=lastfm --train_from_checkpoint
+python main.py --dataset=software
 ```
 
 4. **Evaluation**
 ```
-python main.py --dataset=lastfm --test_only
+python main.py --dataset=software --test_only
