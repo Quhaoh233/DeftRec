@@ -20,3 +20,6 @@ python main.py --dataset=software
 4. **Evaluation**
 ```
 python main.py --dataset=software --test_only
+```
+
+More configurations can be found in the "parse.py" file.
