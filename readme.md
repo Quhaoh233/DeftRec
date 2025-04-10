@@ -17,7 +17,7 @@ python cd code
 python main.py --dataset=software
 ```
 
-4. **Evaluation**
+3. **Evaluation**
 ```
 python main.py --dataset=software --test_only
 ```
