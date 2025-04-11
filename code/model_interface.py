@@ -443,7 +443,7 @@ class MInterface(pl.LightningModule):
     def load_llm(self):
         # Llama Config
         model_name = 'Llama-3.2-1B-Instruct'  # model
-        hf_token = "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" # hf_token for Llama 3.1 or 3.2
+        hf_token = "your_hf_token" # hf_token for Llama 3.1 or 3.2
         model_source = 'meta-llama/'
         model_id = model_source + model_name
         torch_dtype = torch.float16
