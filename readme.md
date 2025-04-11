@@ -5,6 +5,8 @@ It is a novel framework, abbreviated from DEnoising diFfusion on continuous Toke
 
 ### An example of Implementation
 
+Notably, please enter your huggingface token in Line 446 of the "model_interface.py" to get the access liscence for the Llama-3.2 model.
+
 1. **Go to the path of "code"**
 ```
 python cd code
