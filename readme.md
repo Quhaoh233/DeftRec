@@ -5,8 +5,6 @@ It is a novel framework, abbreviated from DEnoising diFfusion on continuous Toke
 
 ### An example of Implementation
 
-Please download the checkpoints at [Google Drive](https://drive.google.com/drive/folders/1CEZyrFMcTbCz2LO8Tm6L1oF9VPqqy9-K?usp=drive_link), and put them in the path of "ckpt/".
-
 1. **Go to the path of "code"**
 ```
 python cd code
@@ -23,3 +21,5 @@ python main.py --dataset=software --test_only
 ```
 
 More configurations can be found in the "parse.py" file.
+
+You can download the checkpoints at [Google Drive](https://drive.google.com/drive/folders/1CEZyrFMcTbCz2LO8Tm6L1oF9VPqqy9-K?usp=drive_link), and put them in the path of "ckpt/".
