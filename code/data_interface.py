@@ -93,7 +93,7 @@ class MyDataset(data.Dataset):
         return {'input': prompt, 'answer': answer, 'user': user, 'items': join_items, 'target': target, 'item_num':len(items), 'interacted': interacted}
     
     
-def data_construction(data, max_len, min_len=3, augmentation=True, max_augment_num=3):  # data = pd.Dataframe()
+def data_construction(data, max_len, min_len=3, augmentation=True, max_augment_num=20):  # data = pd.Dataframe()
     output_data = []
     for index, _ in data.iterrows():
         row = data.iloc[index, 0]
