@@ -122,7 +122,7 @@ class MInterface(pl.LightningModule):
         return loss
 
     # validation functions
-    def generate(self, batch, temperature=1, do_sample=False, num_beams=1, min_gen_length=1, repetition_penalty=1.0, length_penalty=1.0, num_return_sequences=1):
+    def generate(self, batch, temperature=0, do_sample=False, num_beams=1, min_gen_length=1, repetition_penalty=1.0, length_penalty=1.0, num_return_sequences=1):
         max_gen_length = self.hparams.max_gen_length
         input_pairs = [prompt for prompt, answer in zip(batch['input'], batch['answer'])]
         batch_size = len(input_pairs)
